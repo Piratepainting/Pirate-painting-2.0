@@ -29,7 +29,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300 rounded-full text-sm font-medium mb-4">
               Our Purpose
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Mission & Vision</h2>
@@ -42,8 +42,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="bg-gray-50 dark:bg-gray-800 p-10 rounded-2xl shadow-md">
               <div className="flex items-center mb-6">
-                <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
-                  <Target className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+                <div className="bg-purple-100 dark:bg-purple-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
+                  <Target className="h-7 w-7 text-purple-600 dark:text-purple-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Mission</h3>
               </div>
@@ -53,21 +53,21 @@ export default function AboutPage() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Creating safe, sustainable, and functional spaces that enhance the quality of life for those who use
                     them
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Fostering a culture of excellence, continuous improvement, and professional growth among our team
                     members
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Building lasting relationships with clients, partners, and communities through transparent
                     communication and ethical practices
@@ -78,8 +78,8 @@ export default function AboutPage() {
 
             <div className="bg-gray-50 dark:bg-gray-800 p-10 rounded-2xl shadow-md">
               <div className="flex items-center mb-6">
-                <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
-                  <Eye className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+                <div className="bg-purple-100 dark:bg-purple-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
+                  <Eye className="h-7 w-7 text-purple-600 dark:text-purple-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Vision</h3>
               </div>
@@ -88,20 +88,20 @@ export default function AboutPage() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Setting new standards of excellence in construction quality, safety, and client satisfaction
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Pioneering sustainable building practices that minimize environmental impact while maximizing
                     efficiency and durability
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300">
                     Creating positive change in the communities where we work through responsible business practices and
                     meaningful engagement
@@ -112,9 +112,9 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-16 text-center">
-            <div className="bg-amber-50 dark:bg-amber-900/30 p-8 rounded-2xl max-w-3xl mx-auto">
-              <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+            <div className="bg-purple-50 dark:bg-purple-900/30 p-8 rounded-2xl max-w-3xl mx-auto">
+              <div className="bg-purple-100 dark:bg-purple-900 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Lightbulb className="h-7 w-7 text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Our Approach</h3>
               <p className="text-gray-700 dark:text-gray-300 text-lg mb-6">
@@ -123,7 +123,7 @@ export default function AboutPage() {
                 projects that stand the test of time.
               </p>
               <Link href="/contact">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold">
+                <Button className="bg-purple-500 hover:bg-purple-600 text-white font-semibold">
                   Partner With Us
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -138,7 +138,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300 rounded-full text-sm font-medium mb-4">
                 Our Story
               </div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Building a Legacy of Excellence</h2>
@@ -156,7 +156,7 @@ export default function AboutPage() {
                 sustainable practices to deliver exceptional results for our clients.
               </p>
               <Link href="/contact">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold">
+                <Button className="bg-purple-500 hover:bg-purple-600 text-white font-semibold">
                   Get in Touch
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -173,7 +173,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300 rounded-full text-sm font-medium mb-4">
               Our Values
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">What Drives Us</h2>
@@ -183,8 +183,8 @@ export default function AboutPage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-purple-100 dark:bg-purple-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Excellence</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -192,8 +192,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Wrench className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-purple-100 dark:bg-purple-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Wrench className="h-8 w-8 text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Integrity</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -201,8 +201,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Compass className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-purple-100 dark:bg-purple-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Compass className="h-8 w-8 text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Innovation</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -210,8 +210,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Clock className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-purple-100 dark:bg-purple-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Clock className="h-8 w-8 text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Reliability</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -226,7 +226,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300 rounded-full text-sm font-medium mb-4">
               Our Team
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Meet Our Leadership</h2>
@@ -245,14 +245,14 @@ export default function AboutPage() {
                 </div>
                 <div className="p-8 text-center">
                   <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">{member.name}</h3>
-                  <p className="text-amber-600 dark:text-amber-400 mb-4">{member.position}</p>
+                  <p className="text-purple-600 dark:text-purple-400 mb-4">{member.position}</p>
                   <p className="text-gray-700 dark:text-gray-300 mb-6">{member.bio}</p>
                   <div className="flex justify-center space-x-4">
                     {member.social.map((social, idx) => (
                       <Link
                         key={idx}
                         href={social.url}
-                        className="text-gray-500 dark:text-gray-400 hover:text-amber-500 dark:hover:text-amber-400 transition-colors"
+                        className="text-gray-500 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400 transition-colors"
                       >
                         <social.icon className="h-5 w-5" />
                       </Link>
@@ -266,7 +266,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-amber-500 dark:bg-amber-600">
+      <section className="py-16 bg-purple-500 dark:bg-purple-600">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-5xl mx-auto">
             <div className="p-6">
@@ -298,7 +298,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8">
+              <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white font-semibold px-8">
                 Contact Us
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -307,7 +307,7 @@ export default function AboutPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white hover:bg-white/10 font-semibold px-8"
+                className="text-white border-white hover:bg-white/10 font-semibold px-8 bg-transparent"
               >
                 View Our Projects
                 <ArrowRight className="ml-2 h-4 w-4" />

@@ -66,7 +66,7 @@ export function DemoSlider() {
       </div>
 
       {isLowEnd && (
-        <div className="bg-amber-50 p-4 rounded-lg flex items-center gap-4">
+        <div className="bg-purple-50 p-4 rounded-lg flex items-center gap-4">
           <div className="flex-1">
             <h3 className="font-medium">Low-end device detected</h3>
             <p className="text-sm text-gray-600">Enable optimizations for better performance</p>

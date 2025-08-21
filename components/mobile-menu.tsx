@@ -77,7 +77,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="fixed top-0 right-0 bottom-0 w-[85vw] sm:w-[350px] bg-background border-l border-amber-200 dark:border-amber-800 z-50 md:hidden overflow-y-auto"
+            className="fixed top-0 right-0 bottom-0 w-[85vw] sm:w-[350px] bg-background border-l border-purple-200 dark:border-purple-800 z-50 md:hidden overflow-y-auto"
           >
             <div className="flex flex-col h-full p-4 sm:p-6">
               <div className="flex items-center justify-between border-b py-3 sm:py-4">
@@ -86,7 +86,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     initial={{ rotate: -10, scale: 0.9 }}
                     animate={{ rotate: 0, scale: 1 }}
                     transition={{ type: "spring", stiffness: 400, damping: 15, delay: 0.1 }}
-                    className="bg-amber-500 text-white p-1 sm:p-1.5 rounded-md"
+                    className="bg-purple-500 text-white p-1 sm:p-1.5 rounded-md"
                   >
                     <HardHat className="h-4 w-4 sm:h-5 sm:w-5" />
                   </motion.div>
@@ -104,10 +104,10 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   variant="ghost"
                   size="icon"
                   onClick={onClose}
-                  className="h-8 w-8 sm:h-9 sm:w-9 bg-amber-50 dark:bg-amber-900/20"
+                  className="h-8 w-8 sm:h-9 sm:w-9 bg-purple-50 dark:bg-purple-900/20"
                   type="button"
                 >
-                  <X className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 dark:text-amber-400" />
+                  <X className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 dark:text-purple-400" />
                   <span className="sr-only">Close menu</span>
                 </Button>
               </div>
@@ -212,7 +212,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     transition={{ type: "spring", stiffness: 400, damping: 15 }}
                   >
                     <AnimatedButton
-                      className="w-full bg-amber-500 hover:bg-amber-600 text-white font-medium text-sm sm:text-base transition-all duration-300 py-5 sm:py-6"
+                      className="w-full bg-purple-500 hover:bg-purple-600 text-white font-medium text-sm sm:text-base transition-all duration-300 py-5 sm:py-6"
                       hoverEffect="shine"
                       iconAnimation={true}
                     >
@@ -255,13 +255,13 @@ function MobileNavItem({
         delay: delay,
         mass: 0.8,
       }}
-      whileHover={{ scale: 1.02, backgroundColor: "rgba(245, 158, 11, 0.05)" }}
+      whileHover={{ scale: 1.02, backgroundColor: "rgba(147, 51, 234, 0.05)" }}
       className="overflow-hidden rounded-lg"
     >
       <Link
         href={href}
         className={`text-base sm:text-lg font-medium block text-center py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all duration-300 ${
-          isActive ? "text-amber-500 bg-amber-50 dark:bg-amber-900/20" : ""
+          isActive ? "text-purple-500 bg-purple-50 dark:bg-purple-900/20" : ""
         }`}
         onClick={onClick}
       >
@@ -297,7 +297,7 @@ function MobileSubNavItem({
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
       whileHover={{
         scale: 1.02,
-        backgroundColor: "rgba(245, 158, 11, 0.05)",
+        backgroundColor: "rgba(147, 51, 234, 0.05)",
         transition: { type: "spring", stiffness: 400, damping: 15 },
       }}
       className="overflow-hidden rounded-lg"
@@ -305,7 +305,7 @@ function MobileSubNavItem({
       <Link
         href={href}
         className={`block text-sm sm:text-base py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg transition-all duration-300 text-center ${
-          isActive ? "text-amber-500 bg-amber-50 dark:bg-amber-900/20" : ""
+          isActive ? "text-purple-500 bg-purple-50 dark:bg-purple-900/20" : ""
         }`}
         onClick={onClick}
       >

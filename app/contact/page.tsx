@@ -29,7 +29,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-4">
                 Get In Touch
               </div>
               <h2 className="text-4xl font-bold mb-6">We'd Love to Hear From You</h2>
@@ -39,8 +39,8 @@ export default function ContactPage() {
               </p>
               <div className="space-y-8">
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4">
-                    <MapPin className="h-6 w-6 text-amber-600" />
+                  <div className="bg-purple-100 p-3 rounded-full mr-4">
+                    <MapPin className="h-6 w-6 text-purple-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Our Location</h3>
@@ -48,8 +48,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4">
-                    <Phone className="h-6 w-6 text-amber-600" />
+                  <div className="bg-purple-100 p-3 rounded-full mr-4">
+                    <Phone className="h-6 w-6 text-purple-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Phone Number</h3>
@@ -57,8 +57,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4">
-                    <Mail className="h-6 w-6 text-amber-600" />
+                  <div className="bg-purple-100 p-3 rounded-full mr-4">
+                    <Mail className="h-6 w-6 text-purple-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Email Address</h3>
@@ -66,8 +66,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4">
-                    <Clock className="h-6 w-6 text-amber-600" />
+                  <div className="bg-purple-100 p-3 rounded-full mr-4">
+                    <Clock className="h-6 w-6 text-purple-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Working Hours</h3>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         id="name"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                         placeholder="John Doe"
                       />
                     </div>
@@ -105,7 +105,7 @@ export default function ContactPage() {
                       <input
                         type="email"
                         id="email"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                         placeholder="john@example.com"
                       />
                     </div>
@@ -117,7 +117,7 @@ export default function ContactPage() {
                     <input
                       type="tel"
                       id="phone"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                       placeholder="(123) 456-7890"
                     />
                   </div>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="subject"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                       placeholder="Project Inquiry"
                     />
                   </div>
@@ -139,11 +139,11 @@ export default function ContactPage() {
                     <textarea
                       id="message"
                       rows={4}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                       placeholder="Tell us about your project..."
                     ></textarea>
                   </div>
-                  <Button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-medium py-3">
+                  <Button className="w-full bg-purple-500 hover:bg-purple-600 text-white font-medium py-3">
                     Send Message
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -172,7 +172,7 @@ export default function ContactPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-4">
               FAQ
             </div>
             <h2 className="text-4xl font-bold mb-6">Frequently Asked Questions</h2>

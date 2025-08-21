@@ -38,7 +38,7 @@ export default function ProjectsPage() {
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10 md:mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-3 md:mb-4">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-3 md:mb-4">
               Our Portfolio
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">Featured Projects</h2>
@@ -126,7 +126,7 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-3 md:mb-4">
+              <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-3 md:mb-4">
                 Our Approach
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">How We Deliver Excellence</h2>
@@ -136,8 +136,8 @@ export default function ProjectsPage() {
               </p>
               <div className="space-y-4 md:space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-amber-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
-                    <span className="text-amber-700 font-bold text-sm md:text-base">1</span>
+                  <div className="bg-purple-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
+                    <span className="text-purple-700 font-bold text-sm md:text-base">1</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-base md:text-lg">Thorough Planning</h3>
@@ -147,8 +147,8 @@ export default function ProjectsPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
-                    <span className="text-amber-700 font-bold text-sm md:text-base">2</span>
+                  <div className="bg-purple-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
+                    <span className="text-purple-700 font-bold text-sm md:text-base">2</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-base md:text-lg">Quality Materials</h3>
@@ -158,8 +158,8 @@ export default function ProjectsPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
-                    <span className="text-amber-700 font-bold text-sm md:text-base">3</span>
+                  <div className="bg-purple-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
+                    <span className="text-purple-700 font-bold text-sm md:text-base">3</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-base md:text-lg">Expert Execution</h3>
@@ -169,8 +169,8 @@ export default function ProjectsPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
-                    <span className="text-amber-700 font-bold text-sm md:text-base">4</span>
+                  <div className="bg-purple-100 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center mr-3 md:mr-4 flex-shrink-0">
+                    <span className="text-purple-700 font-bold text-sm md:text-base">4</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-base md:text-lg">Rigorous Quality Control</h3>
@@ -206,7 +206,7 @@ export default function ProjectsPage() {
             <Link href="/contact">
               <Button
                 size="lg"
-                className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-6 md:px-8 w-full sm:w-auto"
+                className="bg-purple-500 hover:bg-purple-600 text-white font-semibold px-6 md:px-8 w-full sm:w-auto"
               >
                 Get in Touch
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -234,9 +234,9 @@ function ProjectCard({ project }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
           <div className="p-4 md:p-6 w-full">
             <h3 className="text-lg md:text-xl font-bold text-white">{project.title}</h3>
-            <p className="text-amber-300 mb-4">{project.category}</p>
+            <p className="text-purple-300 mb-4">{project.category}</p>
             <Link href={`/projects/${project.id}`}>
-              <Button variant="outline" className="text-white border-white hover:bg-white/20">
+              <Button variant="outline" className="text-white border-white hover:bg-white/20 bg-transparent">
                 View Details
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -246,7 +246,7 @@ function ProjectCard({ project }) {
       </div>
       <CardHeader className="p-4 md:p-6">
         <CardTitle className="text-lg md:text-xl">{project.title}</CardTitle>
-        <CardDescription className="text-amber-600">{project.category}</CardDescription>
+        <CardDescription className="text-purple-600">{project.category}</CardDescription>
       </CardHeader>
       <CardContent className="p-4 pt-0 md:p-6 md:pt-0">
         <p className="text-gray-700 text-sm sm:text-base">{project.description}</p>
@@ -255,7 +255,7 @@ function ProjectCard({ project }) {
         <Link href={`/projects/${project.id}`}>
           <Button
             variant="outline"
-            className="border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white text-sm sm:text-base"
+            className="border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white text-sm sm:text-base bg-transparent"
           >
             View Details
             <ArrowRight className="ml-2 h-4 w-4" />
