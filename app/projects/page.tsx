@@ -42,9 +42,7 @@ export default function ProjectsPage() {
               Our Portfolio
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">Featured Projects</h2>
-            <p className="text-base md:text-lg text-gray-700">
-              Browse through our diverse portfolio of completed projects across various sectors.
-            </p>
+  
           </div>
 
           <div className="max-w-6xl mx-auto">
@@ -55,16 +53,16 @@ export default function ProjectsPage() {
                     All
                   </TabsTrigger>
                   <TabsTrigger value="residential" className="px-4 py-2 text-sm rounded-md">
-                    Residential
+                    Interior
                   </TabsTrigger>
                   <TabsTrigger value="commercial" className="px-4 py-2 text-sm rounded-md">
-                    Commercial
+                    Exterior
                   </TabsTrigger>
                   <TabsTrigger value="industrial" className="px-4 py-2 text-sm rounded-md">
-                    Industrial
+                    Deck Staining
                   </TabsTrigger>
                   <TabsTrigger value="renovation" className="px-4 py-2 text-sm rounded-md">
-                    Renovation
+                    Powerwashing
                   </TabsTrigger>
                 </TabsList>
               </div>
