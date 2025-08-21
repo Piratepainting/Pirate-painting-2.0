@@ -5,9 +5,9 @@ import { ArrowRight, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Our Services | Pirate Painting Construction",
+  title: "Our Services | Pirate Painting",
   description:
-    "Explore Pirate Painting's comprehensive construction services including residential, commercial, industrial, and architectural design solutions.",
+    "Explore Pirate Painting's comprehensive painting services including interior painting, exterior painting, deck staining, and power washing.",
 }
 
 export default function ServicesPage() {
@@ -18,7 +18,7 @@ export default function ServicesPage() {
         <div className="absolute inset-0 bg-black/60 z-10" />
         <Image
           src="/images/services-hero.png"
-          alt="Construction services"
+          alt="Painting services"
           fill
           className="object-cover"
           priority
@@ -27,7 +27,7 @@ export default function ServicesPage() {
         <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 md:mb-4">Our Services</h1>
           <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-xl sm:max-w-2xl">
-            Comprehensive construction solutions tailored to your specific needs and vision.
+            Professional painting and surface preparation services tailored to your specific needs and vision.
           </p>
         </div>
       </section>
@@ -39,12 +39,10 @@ export default function ServicesPage() {
             <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-3 md:mb-4">
               What We Offer
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">
-              Comprehensive Construction Solutions
-            </h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">Professional Painting Solutions</h2>
             <p className="text-base md:text-lg text-gray-700">
-              From concept to completion, we provide end-to-end services to bring your vision to life with precision and
-              excellence.
+              From interior transformations to exterior protection, we provide comprehensive painting services to
+              enhance and protect your property with precision and excellence.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 max-w-6xl mx-auto">
@@ -129,7 +127,7 @@ export default function ServicesPage() {
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl order-2 md:order-1">
               <Image
                 src="/images/quality.png"
-                alt="Construction quality"
+                alt="Painting quality"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -143,8 +141,8 @@ export default function ServicesPage() {
                 The Pirate Painting Difference
               </h2>
               <p className="text-base md:text-lg text-gray-700 mb-5 md:mb-8">
-                When you choose Pirate Painting, you're choosing a partner committed to excellence, innovation, and your
-                complete satisfaction.
+                When you choose Pirate Painting, you're choosing a partner committed to excellence, quality
+                craftsmanship, and your complete satisfaction with every brushstroke.
               </p>
               <div className="space-y-4 md:space-y-6">
                 {benefits.map((benefit, index) => (
@@ -167,7 +165,8 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Start Your Project?</h2>
           <p className="text-gray-300 text-sm sm:text-base md:text-lg max-w-xl md:max-w-2xl mx-auto mb-6 md:mb-10">
-            Contact us today for a free consultation and discover how Pirate Painting can bring your vision to life.
+            Contact us today for a free consultation and discover how Pirate Painting can transform your space with
+            professional painting services.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link href="/contact">
@@ -189,41 +188,32 @@ export default function ServicesPage() {
 // Sample data
 const services = [
   {
-    title: "Residential Construction",
-    description: "Custom home building, renovations, and additions tailored to your lifestyle and preferences.",
-    image: "/images/residential-1.png",
-    link: "/services/residential",
-  },
-  {
-    title: "Commercial Development",
+    title: "Interior Painting",
     description:
-      "Office buildings, retail spaces, and hospitality venues designed for functionality and aesthetic appeal.",
+      "Transform your indoor spaces with professional interior painting services using premium paints and expert techniques.",
+    image: "/images/residential-1.png",
+    link: "/services/interior",
+  },
+  {
+    title: "Exterior Painting",
+    description:
+      "Protect and beautify your property's exterior with weather-resistant paints and professional application methods.",
     image: "/images/commercial-1.png",
-    link: "/services/commercial",
+    link: "/services/exterior",
   },
   {
-    title: "Industrial Facilities",
-    description: "Manufacturing plants, warehouses, and distribution centers built for efficiency and durability.",
+    title: "Deck Staining",
+    description:
+      "Preserve and enhance your deck with professional staining services that protect against weather and wear.",
     image: "/images/industrial-1.png",
-    link: "/services/industrial",
+    link: "/services/deck-staining",
   },
   {
-    title: "Architectural Design",
-    description: "Innovative architectural solutions that balance form, function, and sustainability.",
+    title: "Power Washing",
+    description:
+      "Prepare surfaces and restore cleanliness with our comprehensive power washing services for all exterior surfaces.",
     image: "/images/project-3.png",
-    link: "/services/design",
-  },
-  {
-    title: "Project Management",
-    description: "Comprehensive oversight of construction projects from planning to completion.",
-    image: "/images/process.png",
-    link: "/services/management",
-  },
-  {
-    title: "Sustainable Building",
-    description: "Eco-friendly construction practices and materials for environmentally conscious projects.",
-    image: "/images/residential-2.png",
-    link: "/services/sustainable",
+    link: "/services/power-washing",
   },
 ]
 
