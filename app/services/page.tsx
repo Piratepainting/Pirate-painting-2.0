@@ -5,9 +5,9 @@ import { ArrowRight, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Our Services | BuildMaster Construction",
+  title: "Our Services | Pirate Painting Construction",
   description:
-    "Explore BuildMaster's comprehensive construction services including residential, commercial, industrial, and architectural design solutions.",
+    "Explore Pirate Painting's comprehensive construction services including residential, commercial, industrial, and architectural design solutions.",
 }
 
 export default function ServicesPage() {
@@ -139,9 +139,11 @@ export default function ServicesPage() {
               <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-3 md:mb-4">
                 Why Choose Us
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">The BuildMaster Difference</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-6">
+                The Pirate Painting Difference
+              </h2>
               <p className="text-base md:text-lg text-gray-700 mb-5 md:mb-8">
-                When you choose BuildMaster, you're choosing a partner committed to excellence, innovation, and your
+                When you choose Pirate Painting, you're choosing a partner committed to excellence, innovation, and your
                 complete satisfaction.
               </p>
               <div className="space-y-4 md:space-y-6">
@@ -165,7 +167,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Start Your Project?</h2>
           <p className="text-gray-300 text-sm sm:text-base md:text-lg max-w-xl md:max-w-2xl mx-auto mb-6 md:mb-10">
-            Contact us today for a free consultation and discover how BuildMaster can bring your vision to life.
+            Contact us today for a free consultation and discover how Pirate Painting can bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link href="/contact">

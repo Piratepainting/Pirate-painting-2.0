@@ -2,7 +2,17 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, CheckCircle, ChevronRight, Eye, Lightbulb, HardHat, Hammer, Compass, Target } from "lucide-react"
+import {
+  ArrowRight,
+  CheckCircle,
+  ChevronRight,
+  Eye,
+  Lightbulb,
+  Paintbrush,
+  Hammer,
+  Compass,
+  Target,
+} from "lucide-react"
 import { motion } from "framer-motion"
 import { AnimatedButton } from "@/components/ui/animated-button"
 import { HoverButton } from "@/components/ui/hover-button"
@@ -241,7 +251,7 @@ export default function Home() {
                     transition={{ duration: 0.3 }}
                     className="bg-purple-100 dark:bg-purple-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <HardHat className="h-7 w-7 md:h-8 md:w-8 text-purple-600 dark:text-purple-400" />
+                    <Paintbrush className="h-7 w-7 md:h-8 md:w-8 text-purple-600 dark:text-purple-400" />
                   </motion.div>
                   <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-gray-900 dark:text-white">
                     Quality Guaranteed
@@ -294,11 +304,11 @@ export default function Home() {
       {/* Stats Section */}
       <section className="py-10 md:py-16 bg-purple-500 dark:bg-purple-600">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8 text-center max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-8 text-center max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
               <div className="p-4 md:p-6">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
-                  <CountUp end={500} suffix="+" />
+                  <CountUp end={150} suffix="+" />
                 </div>
                 <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Projects Completed</p>
               </div>
@@ -306,20 +316,12 @@ export default function Home() {
             <FadeIn direction="up" delay={0.2}>
               <div className="p-4 md:p-6">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
-                  <CountUp end={25} suffix="+" />
+                  <CountUp end={10} />
                 </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Years Experience</p>
+                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Team Members</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.3}>
-              <div className="p-4 md:p-6">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
-                  <CountUp end={150} suffix="+" />
-                </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Expert Team Members</p>
-              </div>
-            </FadeIn>
-            <FadeIn direction="up" delay={0.4}>
               <div className="p-4 md:p-6">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
                   <CountUp end={98} suffix="%" />

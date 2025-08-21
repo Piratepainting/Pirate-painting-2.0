@@ -7,9 +7,9 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata = {
-  title: "Our Projects | BuildMaster Construction",
+  title: "Our Projects | Pirate Painting Construction",
   description:
-    "Explore BuildMaster's portfolio of completed construction projects across residential, commercial, and industrial sectors.",
+    "Explore Pirate Painting's portfolio of completed construction projects across residential, commercial, and industrial sectors.",
 }
 
 export default function ProjectsPage() {

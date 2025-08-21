@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { HardHat, ChevronDown, Menu, Moon, Sun } from "lucide-react"
+import { Paintbrush, ChevronDown, Menu, Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -127,7 +127,7 @@ export function Navbar() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   className="bg-purple-500 text-white p-1.5 sm:p-2 rounded-lg"
                 >
-                  <HardHat className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
+                  <Paintbrush className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 </motion.div>
                 <div className="flex flex-col">
                   <motion.span
@@ -136,8 +136,8 @@ export function Navbar() {
                     whileHover={{ scale: 1.03, color: "#A855F7" }}
                     transition={{ duration: 0.2 }}
                   >
-                    <span className="inline xs:hidden">BM</span>
-                    <span className="hidden xs:inline">BuildMaster</span>
+                    <span className="inline xs:hidden">Pirate Painting</span>
+                    <span className="hidden xs:inline">Pirate Painting</span>
                   </motion.span>
                   <span className="text-[10px] sm:text-xs text-muted-foreground hidden xs:inline">
                     Construction Excellence

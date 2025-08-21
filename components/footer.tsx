@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { HardHat, Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react"
+import { Paintbrush, Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react" // replaced HardHat with Paintbrush
 
 import { Button } from "@/components/ui/button"
 
@@ -11,8 +11,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="text-center sm:text-left">
             <Link href="/" className="flex items-center gap-2 mb-4 sm:mb-6 justify-center sm:justify-start">
-              <HardHat className="h-7 w-7 text-purple-500" />
-              <span className="text-xl font-bold text-white">BuildMaster</span>
+              <Paintbrush className="h-7 w-7 text-purple-500" /> {/* replaced HardHat with Paintbrush */}
+              <span className="text-xl font-bold text-white">Pirate Painting</span>
             </Link>
             <p className="text-gray-400 mb-6 text-sm sm:text-base">
               Your trusted partner for innovative construction solutions. Building excellence and delivering quality
@@ -155,16 +155,16 @@ export function Footer() {
               <li className="flex items-start justify-center sm:justify-start">
                 <MapPin className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                 <span className="text-gray-400 text-sm sm:text-base text-left">
-                  123 BuildMaster Ave, Construction City, BC 12345
+                  106 S Harding St, Greenville, NC 27858
                 </span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
                 <Phone className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">(123) 456-7890</span>
+                <span className="text-gray-400 text-sm sm:text-base">(224) 775-8522</span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
                 <Mail className="h-5 w-5 text-purple-500 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">info@buildmaster.com</span>
+                <span className="text-gray-400 text-sm sm:text-base">lukenhansen@gmail.com</span>
               </li>
             </ul>
             <div className="mt-6">
@@ -179,7 +179,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 sm:mt-10 pt-6 text-center text-gray-400 text-sm max-w-6xl mx-auto">
-          <p>&copy; {new Date().getFullYear()} BuildMaster Construction. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pirate Painting Construction. All rights reserved.</p>
         </div>
       </div>
     </footer>

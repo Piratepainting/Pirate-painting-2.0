@@ -4,9 +4,9 @@ import { Mail, MapPin, Phone, Clock, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Contact Us | BuildMaster Construction",
+  title: "Contact Us | Pirate Painting Construction",
   description:
-    "Get in touch with BuildMaster Construction for inquiries, quotes, or to discuss your construction project needs.",
+    "Get in touch with Pirate Painting Construction for inquiries, quotes, or to discuss your construction project needs.",
 }
 
 export default function ContactPage() {
@@ -44,7 +44,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Our Location</h3>
-                    <p className="text-gray-700">123 BuildMaster Ave, Construction City, BC 12345</p>
+                    <p className="text-gray-700">106 S Harding St, Greenville, NC 27858</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -53,7 +53,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Phone Number</h3>
-                    <p className="text-gray-700">(123) 456-7890</p>
+                    <p className="text-gray-700">(224) 775-8522</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Email Address</h3>
-                    <p className="text-gray-700">info@buildmaster.com</p>
+                    <p className="text-gray-700">lukenhansen@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -118,7 +118,7 @@ export default function ContactPage() {
                       type="tel"
                       id="phone"
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                      placeholder="(123) 456-7890"
+                      placeholder="(224) 775-8522"
                     />
                   </div>
                   <div className="mb-6">
@@ -217,8 +217,8 @@ const faqs = [
       "Yes, we handle all necessary permits and regulatory approvals as part of our comprehensive service. Our team is familiar with local building codes and regulations to ensure a smooth approval process.",
   },
   {
-    question: "What sets BuildMaster apart from other construction companies?",
+    question: "What sets Pirate Painting apart from other construction companies?",
     answer:
-      "BuildMaster stands out for our commitment to quality, transparent communication, innovative solutions, and on-time delivery. We combine traditional craftsmanship with modern technologies to deliver exceptional results that exceed client expectations.",
+      "Pirate Painting stands out for our commitment to quality, transparent communication, innovative solutions, and on-time delivery. We combine traditional craftsmanship with modern technologies to deliver exceptional results that exceed client expectations.",
   },
 ]

@@ -5,9 +5,9 @@ import { ArrowRight, CheckCircle, Award, Clock, Target, Eye, Lightbulb, Compass,
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "About Us | BuildMaster Construction",
+  title: "About Us | Pirate Painting Construction",
   description:
-    "Learn about BuildMaster Construction's history, values, and our expert team dedicated to excellence in construction.",
+    "Learn about Pirate Painting Construction's history, values, and our expert team dedicated to excellence in construction.",
 }
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/60 z-10" />
         <Image src="/images/about-team.png" alt="Construction team" fill className="object-cover" priority />
         <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About BuildMaster</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About Pirate Painting</h1>
           <p className="text-xl text-white/90 max-w-2xl">
             Building excellence through innovation, quality craftsmanship, and unwavering commitment to our clients.
           </p>
@@ -143,7 +143,7 @@ export default function AboutPage() {
               </div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Building a Legacy of Excellence</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
-                Founded in 2000, BuildMaster began as a small family-owned construction company with a vision to
+                Founded in 2000, Pirate Painting began as a small family-owned construction company with a vision to
                 transform the industry through innovation and quality craftsmanship.
               </p>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 excellence, integrity, and client satisfaction.
               </p>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
-                Today, BuildMaster continues to push the boundaries of construction, embracing new technologies and
+                Today, Pirate Painting continues to push the boundaries of construction, embracing new technologies and
                 sustainable practices to deliver exceptional results for our clients.
               </p>
               <Link href="/contact">
@@ -268,18 +268,14 @@ export default function AboutPage() {
       {/* Stats Section */}
       <section className="py-16 bg-purple-500 dark:bg-purple-600">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
             <div className="p-6">
-              <div className="text-4xl font-bold text-white mb-2">500+</div>
+              <div className="text-4xl font-bold text-white mb-2">150+</div>
               <p className="text-black dark:text-gray-100 font-medium">Projects Completed</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-white mb-2">25+</div>
-              <p className="text-black dark:text-gray-100 font-medium">Years Experience</p>
-            </div>
-            <div className="p-6">
-              <div className="text-4xl font-bold text-white mb-2">150+</div>
-              <p className="text-black dark:text-gray-100 font-medium">Expert Team Members</p>
+              <div className="text-4xl font-bold text-white mb-2">10</div>
+              <p className="text-black dark:text-gray-100 font-medium">Team Members</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-white mb-2">98%</div>
@@ -294,7 +290,8 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="text-4xl font-bold mb-6">Ready to Work With Us?</h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-10">
-            Contact us today to discuss your project needs and discover how BuildMaster can bring your vision to life.
+            Contact us today to discuss your project needs and discover how Pirate Painting can bring your vision to
+            life.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact">
@@ -327,7 +324,7 @@ const teamMembers = [
   {
     name: "Michael Reynolds",
     position: "CEO & Founder",
-    bio: "With over 30 years in construction, Michael founded BuildMaster with a vision to transform the industry through innovation and quality.",
+    bio: "With over 30 years in construction, Michael founded Pirate Painting with a vision to transform the industry through innovation and quality.",
     image: "/images/team-1.png",
     social: [
       { icon: Linkedin, url: "#" },

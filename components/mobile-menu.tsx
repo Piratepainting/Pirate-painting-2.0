@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { HardHat, ChevronRight, X } from "lucide-react"
+import { Paintbrush, ChevronRight, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { AnimatedButton } from "@/components/ui/animated-button"
@@ -88,7 +88,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     transition={{ type: "spring", stiffness: 400, damping: 15, delay: 0.1 }}
                     className="bg-purple-500 text-white p-1 sm:p-1.5 rounded-md"
                   >
-                    <HardHat className="h-4 w-4 sm:h-5 sm:w-5" />
+                    <Paintbrush className="h-4 w-4 sm:h-5 sm:w-5" />
                   </motion.div>
                   <motion.div
                     initial={{ x: -10, opacity: 0 }}
@@ -96,7 +96,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.2 }}
                     className="flex flex-col"
                   >
-                    <span className="text-base sm:text-lg font-bold">BuildMaster</span>
+                    <span className="text-base sm:text-lg font-bold">Pirate Painting</span>
                     <span className="text-[10px] sm:text-xs text-muted-foreground">Construction Excellence</span>
                   </motion.div>
                 </Link>
